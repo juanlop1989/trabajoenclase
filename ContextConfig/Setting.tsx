@@ -6,7 +6,7 @@ export default function Setting() {
     const { isDarkTheme, toggleTheme } = useTheme();
 
     return (
-        <View style="container">
+        <View >
             <Text>
                 Tema Actual: {isDarkTheme ? 'Oscuro' : 'Claro'}
             </Text>
